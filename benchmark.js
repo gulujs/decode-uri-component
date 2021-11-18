@@ -1,5 +1,5 @@
-const { decodeURIComponent: lunjsDecodeURIComponent } = require('./');
-const fastDecodeURIComponent = require('fast-decode-uri-component');
+import { decodeURIComponent as lunjsDecodeURIComponent } from './index.js';
+import fastDecodeURIComponent from 'fast-decode-uri-component';
 
 const short = encodeURIComponent('tést💩🇺🇸');
 const medium = short.repeat(500);

@@ -1,5 +1,5 @@
-const assert = require('assert');
-const { decodeURIComponent } = require('.');
+import * as assert from 'assert';
+import { decodeURIComponent } from './index.js';
 
 function test(from, to) {
   for (let code = from; code < to; code++) {

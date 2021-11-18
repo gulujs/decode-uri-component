@@ -1,7 +1,8 @@
 {
   "name": "@lunjs/decode-uri-component",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "fast and safe decodeURIComponent",
+  "type": "module",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -26,5 +27,8 @@
     "uri",
     "fast",
     "safe"
-  ]
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }

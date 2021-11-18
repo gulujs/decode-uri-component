@@ -77,7 +77,7 @@ if (!fromCodePoint) {
   }
 }
 
-function decodeURIComponent(encodedURI) {
+export function decodeURIComponent(encodedURI) {
   let p = encodedURI.indexOf('%');
   if (p === -1) {
     return encodedURI;
@@ -120,7 +120,3 @@ function decodeURIComponent(encodedURI) {
 
   return decoded + encodedURI.substring(last);
 }
-
-module.exports = {
-  decodeURIComponent
-};
