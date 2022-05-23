@@ -1,4 +1,4 @@
-# @lunjs/decode-uri-component
+# @gulujs/decode-uri-component
 
 ### Code points
 
@@ -73,7 +73,7 @@
 
 ### DFA with range transitions
 
-![DFA with range transitions](https://raw.githubusercontent.com/lunjs/decode-uri-component/master/dfa-bytes.svg)
+![DFA with range transitions](https://raw.githubusercontent.com/gulujs/decode-uri-component/master/dfa-bytes.svg)
 
 ### type
 
@@ -96,7 +96,7 @@
 
 ### DFA with class transitions
 
-![DFA with class transitions](https://raw.githubusercontent.com/lunjs/decode-uri-component/master/dfa-classes.svg)
+![DFA with class transitions](https://raw.githubusercontent.com/gulujs/decode-uri-component/master/dfa-classes.svg)
 
 ### state
 
@@ -220,6 +220,6 @@
 
 ## License
 
-- [lunjs/decode-uri-componen - MIT](https://github.com/lunjs/decode-uri-componen/blob/master/LICENSE)
+- [MIT](LICENSE)
 - [delvedor/fast-decode-uri-component - MIT](https://github.com/delvedor/fast-decode-uri-component/blob/master/LICENSE)
 - [jridgewell/safe-decode-uri-component - MIT](https://github.com/jridgewell/safe-decode-uri-component/blob/master/LICENSE)

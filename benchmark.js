@@ -1,4 +1,4 @@
-import { decodeURIComponent as lunjsDecodeURIComponent } from './index.js';
+import { decodeURIComponent as gulujsDecodeURIComponent } from './index.js';
 import fastDecodeURIComponent from 'fast-decode-uri-component';
 
 const short = encodeURIComponent('tést💩🇺🇸');
@@ -11,11 +11,11 @@ for (let i = 0; i < 100000; i++) {
 }
 console.timeEnd('Short String (native)')
 
-console.time('Short String (lunjs)')
+console.time('Short String (gulujs)')
 for (let i = 0; i < 100000; i++) {
-  lunjsDecodeURIComponent(short);
+  gulujsDecodeURIComponent(short);
 }
-console.timeEnd('Short String (lunjs)')
+console.timeEnd('Short String (gulujs)')
 
 console.time('Short String (fast)')
 for (let i = 0; i < 100000; i++) {
@@ -30,11 +30,11 @@ for (let i = 0; i < 10000; i++) {
 }
 console.timeEnd('Medium String (native)')
 
-console.time('Medium String (lunjs)')
+console.time('Medium String (gulujs)')
 for (let i = 0; i < 10000; i++) {
-  lunjsDecodeURIComponent(medium);
+  gulujsDecodeURIComponent(medium);
 }
-console.timeEnd('Medium String (lunjs)')
+console.timeEnd('Medium String (gulujs)')
 
 console.time('Medium String (fast)')
 for (let i = 0; i < 10000; i++) {
@@ -49,11 +49,11 @@ for (let i = 0; i < 10; i++) {
 }
 console.timeEnd('Long String (native)')
 
-console.time('Long String (lunjs)')
+console.time('Long String (gulujs)')
 for (let i = 0; i < 10; i++) {
-  lunjsDecodeURIComponent(long);
+  gulujsDecodeURIComponent(long);
 }
-console.timeEnd('Long String (lunjs)')
+console.timeEnd('Long String (gulujs)')
 
 console.time('Long String (fast)')
 for (let i = 0; i < 10; i++) {
