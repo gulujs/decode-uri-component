@@ -220,6 +220,4 @@
 
 ## License
 
-- [MIT](LICENSE)
-- [delvedor/fast-decode-uri-component - MIT](https://github.com/delvedor/fast-decode-uri-component/blob/master/LICENSE)
-- [jridgewell/safe-decode-uri-component - MIT](https://github.com/jridgewell/safe-decode-uri-component/blob/master/LICENSE)
+[MIT](LICENSE)
